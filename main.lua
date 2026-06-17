@@ -222,7 +222,7 @@ end
 if _G.charSelectExists then
 
     _G.charSelect.character_add(
-        "Clank v1.0",
+        "Clank64",
         {"Clank from Ratchet & Clank universe. On another secret mission in another galaxy.."},
         "CrypticTM",
         {r = 255, g = 102, b = 0},
