@@ -226,9 +226,9 @@ if _G.charSelectExists then
         {"Clank from Ratchet & Clank universe. On another secret mission in another galaxy.."},
         "CrypticTM",
         {r = 255, g = 102, b = 0},
-        E_MODEL_CONKER,
+        E_MODEL_CLANK,
         CT_MARIO,
-        TEX_CONKER
+        TEX_CLANK
     )
 
     _G.charSelect.character_add_voice(E_MODEL_CLANK, VOICETABLE_CLANK)
