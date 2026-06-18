@@ -33,6 +33,6 @@ How to install:
     Sounds: Insomniac Team , edited by CrypticTM
     Testers: Bugito64, Juan83, TanKanT97, Troubldbobcat
 
-    Known bugs: Clank may appear with a missing head upon exiting a painting
-    Clank may show his testing cap (Wario) upon death, although they play the right sound
-    Script error "Could not find audio file: 'Botls.ogg' is a typo. Will fix in update
+    Known bugs: 
+    Fixed bug with Clank showing wrong face during death
+    Fixed bug with typo , no more script error
