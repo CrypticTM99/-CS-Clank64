@@ -1,8 +1,7 @@
 -- name: [CS] Clank (Ratchet&Clank64)
 -- description: Clank has arrived in N64 style! With a custom moveset + sounds! Made by CrypticTM.\n\Requires Character Select.
 
--- description: 
-local E_MODEL_CLANK = smlua_model_util_get_id("w_test3_geo")
+local E_MODEL_CLANK = smlua_model_util_get_id("clankv1_geo")
 
 -- 🍄 PLACEHOLDER BOLT MODEL
 local E_MODEL_BOLT = E_MODEL_MUSHROOM
@@ -20,7 +19,7 @@ local VOICETABLE_CLANK = {
     [CHAR_SOUND_ATTACKED] = {"silence.ogg", "Attacked2.ogg","clanksound.ogg"},
     [CHAR_SOUND_GROUND_POUND_WAH] = "Star Get.ogg",
     [CHAR_SOUND_HAHA] = "silence.ogg",
-    [CHAR_SOUND_HAHA_2] = "silence.ogg",
+    [CHAR_SOUND_HAHA_2] = "Star Get.ogg",
     [CHAR_SOUND_HERE_WE_GO] = "clanksound.ogg",
     [CHAR_SOUND_HOOHOO] = {"Bolts.ogg", "Bolts.ogg"},
     [CHAR_SOUND_ON_FIRE] = "silence.ogg",
@@ -47,7 +46,7 @@ local VOICETABLE_CLANK = {
     [CHAR_SOUND_EEUH] = {"Climbup.ogg","silence.ogg","silence.ogg"},
     [CHAR_SOUND_MAMA_MIA] = {"Star Get.ogg","Star Get.ogg","clanksound.ogg"},
     [CHAR_SOUND_COUGHING1] = "Cough1.ogg",
-    [CHAR_SOUND_COUGHING2] = "silence.ogg",
+    [CHAR_SOUND_COUGHING2] = "CompleteDisaster.ogg",
     [CHAR_SOUND_COUGHING3] = "silence.ogg",
     [CHAR_SOUND_DOH] = {"CompleteDisaster.ogg","Bolts.ogg","clanksound.ogg"},
     [CHAR_SOUND_HRMM] = {"CompleteDisaster.ogg","Bolts.ogg","clanksound.ogg"},
